@@ -19,26 +19,27 @@ DATA = Path(__file__).resolve().parent / "data"
 
 DATASETS = ("Maclaren", "OAS1", "MMRR")
 
-MODELS = (
-    "SFCN-sm T1",
-    "SFCN-sm GM",
-    "SFCN-sm WM",
+MODELS = (  
     "SFCN-reg T1",
     "SFCN-reg GM",
     "SFCN-reg WM",
+    "SFCN-sm T1",
+    "SFCN-sm GM",
+    "SFCN-sm WM",
     "ResNet T1",
-    "ResNet T1 SEX",
     "ResNet T1 B0",
+    "ResNet T1 SEX",
     "ResNet T1 SEX B0",
 )
 
 MODEL_RGB = (
-    (.65, .00, .00),
-    (.88, .25, .25),
-    (.95, .45, .55),
+    
     (.00, .45, .00),
     (.20, .65, .25),
     (.55, .80, .52),
+    (.65, .00, .00),
+    (.88, .25, .25),
+    (.95, .45, .55),
     (.02, .00, .64),
     (.30, .35, .80),
     (.25, .45, .85),

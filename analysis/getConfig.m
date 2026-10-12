@@ -9,26 +9,26 @@ function cfg = getConfig()
 
     % 模型設定：名稱、Excel、Sheet
     cfg.models = {
-        'SFCN-sm T1',       'SFCN_sm.xlsx',  'T1WI'
-        'SFCN-sm GM',       'SFCN_sm.xlsx',  'GMP'
-        'SFCN-sm WM',       'SFCN_sm.xlsx',  'WMP'
         'SFCN-reg T1',      'SFCN_reg.xlsx', 'T1WI'
         'SFCN-reg GM',      'SFCN_reg.xlsx', 'GMP'
         'SFCN-reg WM',      'SFCN_reg.xlsx', 'WMP'
+        'SFCN-sm T1',       'SFCN_sm.xlsx',  'T1WI'
+        'SFCN-sm GM',       'SFCN_sm.xlsx',  'GMP'
+        'SFCN-sm WM',       'SFCN_sm.xlsx',  'WMP'
         'ResNet T1',        'ResNet.xlsx',   'T1'
-        'ResNet T1 SEX',    'ResNet.xlsx',   'T1_SEX'
         'ResNet T1 B0',     'ResNet.xlsx',   'T1_B0'
+        'ResNet T1 SEX',    'ResNet.xlsx',   'T1_SEX'
         'ResNet T1 SEX B0', 'ResNet.xlsx',   'T1_SEX_B0'
     };
 
     % 模型顏色（依模型順序）
     cfg.MODEL_COLORS = [
-        0.65 0.00 0.00    % SFCN-sm T1
-        0.88 0.25 0.25    % SFCN-sm GM
-        0.95 0.45 0.55    % SFCN-sm WM
         0.00 0.45 0.00    % SFCN-reg T1
         0.20 0.65 0.25    % SFCN-reg GM
         0.55 0.80 0.52    % SFCN-reg WM
+        0.65 0.00 0.00    % SFCN-sm T1
+        0.88 0.25 0.25    % SFCN-sm GM
+        0.95 0.45 0.55    % SFCN-sm WM
         0.02 0.00 0.64    % ResNet T1
         0.30 0.35 0.80    % ResNet T1 SEX
         0.25 0.45 0.85    % ResNet T1 B0
